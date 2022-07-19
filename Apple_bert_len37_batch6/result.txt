@@ -1,0 +1,35 @@
+Epoch [1/5]
+Iter:      0,  Train Loss:   1.5,  Train Acc:  0.00%,  Val Loss:   1.5,  Val Acc: 11.74%,  Time: 0:00:03 *
+Iter:    100,  Train Loss:  0.91,  Train Acc: 66.67%,  Val Loss:  0.87,  Val Acc: 66.97%,  Time: 0:00:12 *
+Iter:    200,  Train Loss:  0.46,  Train Acc: 83.33%,  Val Loss:   1.3,  Val Acc: 46.58%,  Time: 0:00:20
+Iter:    300,  Train Loss:  0.59,  Train Acc: 83.33%,  Val Loss:   1.4,  Val Acc: 56.13%,  Time: 0:00:29
+Iter:    400,  Train Loss:  0.66,  Train Acc: 66.67%,  Val Loss:   2.0,  Val Acc: 56.00%,  Time: 0:00:37
+Iter:    500,  Train Loss: 0.00046,  Train Acc: 100.00%,  Val Loss:   3.3,  Val Acc: 62.19%,  Time: 0:00:46
+Epoch [2/5]
+Iter:    600,  Train Loss:   1.8,  Train Acc: 50.00%,  Val Loss:   1.6,  Val Acc: 48.77%,  Time: 0:00:54
+Iter:    700,  Train Loss:   1.3,  Train Acc: 50.00%,  Val Loss:   2.3,  Val Acc: 38.84%,  Time: 0:01:03
+Iter:    800,  Train Loss: 0.076,  Train Acc: 100.00%,  Val Loss:   1.8,  Val Acc: 54.58%,  Time: 0:01:11
+Iter:    900,  Train Loss: 0.011,  Train Acc: 100.00%,  Val Loss:   2.8,  Val Acc: 49.55%,  Time: 0:01:20
+Iter:   1000,  Train Loss: 0.0014,  Train Acc: 100.00%,  Val Loss:   2.5,  Val Acc: 64.90%,  Time: 0:01:28
+Epoch [3/5]
+Iter:   1100,  Train Loss:  0.25,  Train Acc: 100.00%,  Val Loss:   1.3,  Val Acc: 50.19%,  Time: 0:01:37
+No optimization for a long time, auto-stopping...
+Test Loss:  0.87,  Test Acc: 66.97%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+          0_     0.8039    0.2124    0.3361       193
+          1_     0.6883    0.9272    0.7901       481
+          2_     0.4211    0.3556    0.3855        90
+          3_     0.0000    0.0000    0.0000        11
+
+    accuracy                         0.6697       775
+   macro avg     0.4783    0.3738    0.3779       775
+weighted avg     0.6763    0.6697    0.6188       775
+
+Confusion Matrix...
+[[ 41 134  18   0]
+ [ 10 446  25   0]
+ [  0  58  32   0]
+ [  0  10   1   0]]
+Time usage: 0:00:01
