@@ -9,7 +9,7 @@ GPU: NVIDIA GeForce RTX 3060 6G
 
 Hard Disk Size: 512GB
 
-#Running process
+# Running process
 
 python run.py --model bert
 or python run.py --model bert_LSTM
